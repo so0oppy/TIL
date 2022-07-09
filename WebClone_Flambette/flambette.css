@@ -1,0 +1,51 @@
+.main{
+    position: absolute;
+    text-align: center;
+}
+
+#background-img{
+    max-width: 100%;
+    height: auto;
+    left: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.main .logo > a{
+    color: #0064DF;
+    font-family:'Cardo', serif;
+    font-size: 28px;
+    position: absolute;
+    left: 40px;
+    top: 30px;
+}
+
+.main .menu > nav > ul > li > a{
+    color: #0064DF;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
+    position: absolute;
+    top: 35px;
+}
+
+#home{
+    right: 420px;
+}
+#body{
+    right: 350px;
+}
+#accessories{
+    right: 250px;
+}
+#gifts{
+    right: 190px;
+}
+#journal{
+    right: 100px;
+}
