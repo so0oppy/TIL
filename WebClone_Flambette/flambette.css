@@ -1,6 +1,11 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
 .main{
     position: absolute;
-    text-align: center;
 }
 
 #background-img{
@@ -30,10 +35,11 @@ ul{
     color: #0064DF;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 13px;
-    position: absolute;
+    position: fixed;
     top: 35px;
 }
 
+/* --------menu---------- */
 #home{
     right: 420px;
 }
@@ -48,4 +54,153 @@ ul{
 }
 #journal{
     right: 100px;
+}
+#cart{
+    top: 34px;
+    right: 45px;
+}
+#line1{
+    color: #0064DF;
+    margin: -18.2% 10px 0 0;
+    letter-spacing: 22px;
+    position: fixed;
+}
+#line2{
+    color: #0064DF;
+    margin: -1.65% -70% 0 0;
+    letter-spacing: 22px;
+    position: fixed;
+}
+#number{
+    color: #0064DF;
+    margin: -1.7% -95% 0 0;
+    position: fixed;
+}
+
+/* ----------links------------*/
+.link{
+    position: fixed;
+}
+.link #left{
+    color: #0064DF;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    margin: -20% 0 0 0;
+}
+#about{
+    margin: 70% 0 0 0;
+}
+#retailers{
+
+}
+#contact-us{
+
+}
+
+/* ----------conduct---------- */
+.conduct{
+    position: relative;
+}
+
+.img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* candle */
+#candles_top{
+    position: absolute;
+    width: 33%;
+    margin: 33% 0 0 11%;
+}
+#candles_middle{
+    position: absolute;
+    width: 33%;
+    margin: 35% 0 0 13%;
+}
+#candles_bottom{
+    position: absolute;
+    width: 33%;
+    margin: 37% 0 0 15%;
+}
+
+.explain{
+    color: #0064DF;
+    text-align: left;
+    line-height: 25px;
+    font-size: 13px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    margin: 37% 0 0 53%;
+}
+.explain .bold{
+    line-height: 50px;
+    font-family: 'Cardo', serif;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 50px;
+}
+/* soap */
+#soap_top{
+    position: absolute;
+    width: 33%;
+    margin: 98% 0 0 45%;
+}
+#soap_middle{
+    position: absolute;
+    width: 33%;
+    margin: 100% 0 0 47%;
+}
+#soap_bottom{
+    position: absolute;
+    width: 33%;
+    margin: 102% 0 0 49%;
+}
+
+.explain2{
+    color: #0064DF;
+    text-align: left;
+    line-height: 25px;
+    font-size: 13px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    margin: 102% 0 0 20%;
+}
+.explain2 .bold{
+    line-height: 50px;
+    font-family: 'Cardo', serif;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 50px;
+}
+/* spray */
+#spray_top{
+    position: absolute;
+    width: 33%;
+    margin: 163% 0 0 11%;
+}
+#spray_middle{
+    position: absolute;
+    width: 33%;
+    margin: 165% 0 0 13%;
+}
+#spray_bottom{
+    position: absolute;
+    width: 33%;
+    margin: 167% 0 0 15%;
+}
+
+.explain3{
+    color: #0064DF;
+    text-align: left;
+    line-height: 25px;
+    font-size: 13px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    margin: 167% 0 0 53%;
+}
+.explain3 .bold{
+    line-height: 50px;
+    font-family: 'Cardo', serif;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 50px;
 }
