@@ -15,17 +15,14 @@
 </head>
 <body>
     <div class="main">
-        <div class="logo">
-            <a href="#">flambette</a>
-        </div>
 
-        <img src="../WebClone_Flambette/img/background2.png" alt="메인 사진" id="background-img"></img>
+        <img src="../WebClone_Flambette/img/background.jpg" alt="메인 사진" id="background-img"></img>
 
         <div class="conduct">
             <div class="candle">
-                <img src="../WebClone_Flambette/img/candles_bottom.jpg" alt="candles_bottom" class="img" id="candles_bottom">
-                <img src="../WebClone_Flambette/img/candles_middle.jpg" alt="candles_middle" class="img" id="candles_middle">
-                <img src="../WebClone_Flambette/img/candles_top.jpg" alt="candles_top" class="img" id="candles_top">
+                <img src="../WebClone_Flambette/img/candles_bottom.jpg" alt="candles_bottom" class="img bottom" id="candles_bottom">
+                <img src="../WebClone_Flambette/img/candles_middle.jpg" alt="candles_middle" class="img middle" id="candles_middle">
+                <img src="../WebClone_Flambette/img/candles_top.jpg" alt="candles_top" class="img top" id="candles_top">
                 <div class="explain">
                     <div class="bold">
                         <br>CRACKLING<br>
@@ -41,9 +38,9 @@
                 </div>
             </div>
             <div class="soap">
-                <img src="../WebClone_Flambette/img/soap_bottom.jpg" alt="soap_bottom" class="img" id="soap_bottom">
-                <img src="../WebClone_Flambette/img/soap_middle.jpg" alt="soap_middle" class="img" id="soap_middle">
-                <img src="../WebClone_Flambette/img/soap_top.jpg" alt="soap_top" class="img" id="soap_top">
+                <img src="../WebClone_Flambette/img/soap_bottom.jpg" alt="soap_bottom" class="img bottom" id="soap_bottom">
+                <img src="../WebClone_Flambette/img/soap_middle.jpg" alt="soap_middle" class="img middle" id="soap_middle">
+                <img src="../WebClone_Flambette/img/soap_top.jpg" alt="soap_top" class="img top" id="soap_top">
                 <div class="explain2">
                     <div class="bold">
                         <br>SCENTED<br>
@@ -60,9 +57,9 @@
                 </div>
             </div>
             <div class="spray">
-                <img src="../WebClone_Flambette/img/spray_bottom.jpg" alt="spray_bottom" class="img" id="spray_bottom">
-                <img src="../WebClone_Flambette/img/spray_middle.jpg" alt="spray_middle" class="img" id="spray_middle">
-                <img src="../WebClone_Flambette/img/spray_top.jpg" alt="spray_top" class="img" id="spray_top">
+                <img src="../WebClone_Flambette/img/spray_bottom.jpg" alt="spray_bottom" class="img bottom" id="spray_bottom">
+                <img src="../WebClone_Flambette/img/spray_middle.jpg" alt="spray_middle" class="img middle" id="spray_middle">
+                <img src="../WebClone_Flambette/img/spray_top.jpg" alt="spray_top" class="img top" id="spray_top">
                 <div class="explain3">
                     <div class="bold">
                         <br>ROOM<br>
@@ -79,22 +76,59 @@
         <div class="menu">
             <nav>
                 <ul>
-                    <li><a href="#" id="home">home</a></li>
-                    <li><p id="line1">— —</p></li>
-                    <li><a href="#" id="body">body</a></li>
+                    <li><a href="#" id="home">home</a>
+                        <ul class="sub_home">
+                            <li><a href="#" id="candles">candles</a></li>
+                            <li><a href="#" id="room-sprays">room sprays</a></li>
+                            <li><a href="#" id="tart-melts">tart melts</a></li>
+                            <li><a href="#" id="limited-editions">limited editions</a></li>
+                        </ul>
+                    </li>
+                    <li><a id="line1">—</a></li>
+                    <li><a href="#" id="body">body</a>
+                        <ul class="sub_body">
+                            <li><a href="#" id="bath-soaks">bath soaks</a></li>
+                            <li><a href="#" id="bubble-baths">bubble baths</a></li>
+                            <li><a href="#" id="hand-creams">hand creams</a></li>
+                            <li><a href="#" id="soaps">soaps</a></li>
+                        </ul>
+                    </li>
+                    <li><a id="line2">—</a></li>
                     <li><a href="#" id="accessories">accessories</a></li>
+                    <li><a id="line3">—</a></li>
                     <li><a href="#" id="gifts">gifts</a></li>
+                    <li><a id="line4">—</a></li>
                     <li><a href="#" id="journal">journal</a></li>
                     <li>
                         <a href="#" id="cart"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-dash-fill" viewBox="0 0 16 16">
                             <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5v-.5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zM6 9.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1H6z"/>
                         </svg></a>
                     </li>
+                    <li><a id="number">(0)</a></li>
                 </ul>
-                
-                <p id="line2">— —</p>
-                <p id="number">(0)</p>
             </nav>
+        </div>
+
+        <div class = "information">
+            <input type="text" placeholder="info@flambette.com"/>
+            <a href="#" id="letter">sign up for the newsletter</a>
+            <br><br><br>
+            <div id="more">
+                <nav>
+                    <ul>
+                        <li><a href="#" id="FAQ">FAQ</a></li>
+                        <li><a href="#" id="Shipping">Shipping & returns</a></li>
+                        <li><a href="#" id="Terms">Terms & conditions</a></li>
+                        <li><a id="C">© <span class="italic">flambette 2022</span>/website by</a></li>
+                        <li><a href="#" id="p-l">p-l cossette</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+        </div>
+
+        <div class="logo">
+            <a href="#">flambette</a>
         </div>
     </div>
 
@@ -103,9 +137,9 @@
             <nav>
                 <ul>
                     <li><a href="#" id="about">about</a></li>
-                    <li> — </li>
+                    <li><a id="line_v1">—</a></li>
                     <li><a href="#" id="retailers">retailers</a></li>
-                    <li> — </li>
+                    <li><a id="line_v2">—</a></li>
                     <li><a href="#" id="contact-us">contact us</a></li>
                 </ul>
             </nav>
@@ -114,14 +148,15 @@
             <nav>
                 <ul>
                     <li><a href="#" id="facebook">fb</a></li>
-                    <li><a href="#" id="instagram">lg</a></li>
-                    <li><a href="#" id="@">@</a></li>
-                    <li><p id="bar">|</p></li>
+                    <li><a href="#" id="instagram">ig</a></li>
+                    <li><a href="#" id="alpha">@</a></li>
+                    <li><a id="bar">|</a></li>
                     <li><a href="#" id="french">fr</a></li>
                 </ul>
             </nav>
         </div>
     </div>
+
     <script type="text/javascript" src="flambette.js"></script>    
 </body>
 </html>
