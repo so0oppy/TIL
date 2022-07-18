@@ -159,7 +159,9 @@ ul li{
     bottom: 70px;
 }
 #french{
+    text-orientation: mixed;
     bottom: 35px;
+    right: 50px;
 }
 
 /* ----------conduct---------- */
@@ -198,13 +200,16 @@ ul li{
     width: 33%;
     margin: -8% 0 0 15%;
 }
+#candle_tag{
+    position: absolute;
+    width: 8%;
+    margin: 37.5% 0 0 -39%;
+}
+
 
 .explain{
-    color: #0064DF;
     text-align: left;
     line-height: 25px;
-    font-size: 13px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
     position: absolute;
     margin: 0 0 0 53%;
 }
@@ -213,6 +218,17 @@ ul li{
     font-family: 'Cardo', serif;
     font-family: 'Playfair Display SC', serif;
     font-size: 50px;
+}
+.explain .bold > a{
+    color: #0064DF;
+}
+.explain .bold .sa > a{
+    color: #0064DF;
+}
+.explain .candle_caption{
+    color: #0064DF;
+    font-size: 13px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 /* soap */
 #soap_top{
@@ -232,11 +248,8 @@ ul li{
 }
 
 .explain2{
-    color: #0064DF;
     text-align: left;
     line-height: 25px;
-    font-size: 13px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
     position: absolute;
     margin: 57% 0 0 20%;
 }
@@ -245,6 +258,17 @@ ul li{
     font-family: 'Cardo', serif;
     font-family: 'Playfair Display SC', serif;
     font-size: 50px;
+}
+.explain2 .bold > a{
+    color: #0064DF;
+}
+.explain2 .bold .sa > a{
+    color: #0064DF;
+}
+.explain2 .soap_caption{
+    color: #0064DF;
+    font-size: 13px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 /* spray */
 #spray_top{
@@ -267,8 +291,6 @@ ul li{
     color: #0064DF;
     text-align: left;
     line-height: 25px;
-    font-size: 13px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
     position: absolute;
     margin: 122% 0 0 53%;
 }
@@ -277,6 +299,17 @@ ul li{
     font-family: 'Cardo', serif;
     font-family: 'Playfair Display SC', serif;
     font-size: 50px;
+}
+.explain3 .bold > a{
+    color: #0064DF;
+}
+.explain3 .bold .sa > a{
+    color: #0064DF;
+}
+.explain3 .spray_caption{
+    color: #0064DF;
+    font-size: 13px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 /*----------information-----------*/
