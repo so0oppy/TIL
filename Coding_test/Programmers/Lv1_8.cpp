@@ -1,14 +1,13 @@
-#include <stdio.h>
-#include <stdbool.h>
-#include <stdlib.h>
+#include <string>
+#include <vector>
 
-//콜라츠(Collatz) 추측
+using namespace std;
 
 int solution(int num) {
     int answer = 0;
     int cnt = 0; //반복 횟수
     long n = (long)num;
-    
+
     while(n != 1){
         if(cnt == 500) {    //작업이 500번 넘어갈 때
             cnt = -1;
@@ -22,8 +21,8 @@ int solution(int num) {
             cnt++;
         }
     }
-    
+
     answer = cnt;
-    
+
     return answer;
 }
