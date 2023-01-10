@@ -1,4 +1,4 @@
-# TIL _ Today Subin Learned
+# TIL _ Today So0oppy Learned
 
 ### 작성규칙
 - 하루동안 공부한 내용을 작성한다.
